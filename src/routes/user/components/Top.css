@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.uTop {
+  background: #303442;
+  padding: 0 20px;
+  height: 260px; }
+  .uTop__content {
+    display: flex;
+    margin-top: 20px; }
+  .uTop__face {
+    background: url("/source/user/face.jpeg") no-repeat;
+    background-size: 100% 100%;
+    width: 121px;
+    height: 121px;
+    border-radius: 50%; }
+  .uTop__subtance {
+    flex: 1;
+    color: #fff;
+    margin-left: 20px; }
+  .uTop .name {
+    margin-top: 20px;
+    height: 30px;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "苹果粗体";
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; }
+  .uTop .follow {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    font-family: "方正兰亭黑";
+    font-size: 17px; }
+    .uTop .follow--show {
+      flex: 1; }
+    .uTop .follow--showed {
+      flex: 1; }
+  .uTop__level {
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #5A5E78;
+    line-height: 30px;
+    text-align: center; }

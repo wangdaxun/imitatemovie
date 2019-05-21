@@ -1,0 +1,10 @@
+.Star {
+  width: 100%;
+  display: inline-block;
+  background: url("../../src/icon/starof.svg") 0 50%/contain repeat-x; }
+
+.StarTop {
+  background-position: 0 50%;
+  background-repeat: repeat-x;
+  background-image: url("../../src/icon/starob.svg");
+  height: 100%; }

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.cityLayer {
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  font-family: "微软雅黑";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+  background: #fff; }
+  .cityLayer__title {
+    width: 100%;
+    height: 50px;
+    background: #fff; }
+    .cityLayer__title--close {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      width: 37px;
+      height: 35px;
+      font-size: 15px;
+      line-height: 35px;
+      font-weight: 500; }
+    .cityLayer__title--choose {
+      flex: 1;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 45px; }
+  .cityLayer__top {
+    border-bottom: 1px solid #e2e2e2; }
+  .cityLayer__content {
+    background: #f5f5f5;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; }
+    .cityLayer__content .cityInput {
+      width: 90%;
+      height: 30px;
+      margin-top: 10px;
+      padding: 0 20px; }
+      .cityLayer__content .cityInput__in {
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px; }
+    .cityLayer__content .cityBlock {
+      margin-top: 20px;
+      padding: 0 20px; }
+      .cityLayer__content .cityBlock__word {
+        color: #9f9fa0;
+        width: 100px;
+        height: 16px;
+        font-size: 16px;
+        font-family: "苹果中等"; }
+      .cityLayer__content .cityBlock__main {
+        margin-top: 25px;
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .cityLayer__content .cityBlock__main--text {
+          width: 103px;
+          height: 45px;
+          margin-bottom: 10px;
+          background: #fff;
+          border: 1px solid #E4E2E2;
+          color: #999;
+          text-align: center;
+          line-height: 45px; }
+        .cityLayer__content .cityBlock__main--text.active {
+          border: 1px solid #ec5b68;
+          color: #ec5b68; }
+  .cityLayer__index {
+    position: fixed;
+    right: 30px;
+    top: 98px; }
+    .cityLayer__index--item {
+      height: 23px; }
+      .cityLayer__index--item a {
+        height: 100%;
+        line-height: 24px;
+        font-family: "苹果中等";
+        text-decoration: none;
+        font-size: 15px;
+        color: #5fb5f9;
+        text-align: right; }
+
+.cityList {
+  background: #fff;
+  margin-top: 20px; }
+  .cityList__word {
+    background: #f5f5f5;
+    font-family: "微软雅黑";
+    text-indent: 2px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999; }
+    .cityList__word span {
+      padding: 0 20px; }
+  .cityList__text {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 45px; }
+  .cityList__text:nth-child(n+2) {
+    border-bottom: 1px solid #999; }

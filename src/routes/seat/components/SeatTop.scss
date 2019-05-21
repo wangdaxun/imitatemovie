@@ -1,0 +1,22 @@
+@import "../../../_util";
+.SeatTop{
+  padding: 20px 20px;
+  font-family: "苹方中等";
+  border-top: 1px solid #E4E2E2;
+  border-bottom: 1px solid #E4E2E2;
+
+  &__title{
+    font-weight: 700;
+    color:#000;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  &__remarks{
+    margin-top: 15px;
+    color: $gray;
+    height: 20px;
+    line-height: 20px;
+  }
+
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.scoreDistribute .title {
+  font-family: "苹果粗体";
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  margin-top: 20px; }
+
+.scoreDistribute .content {
+  margin-top: 10px;
+  display: flex; }
+
+.scoreDistribute .score {
+  text-align: center; }
+  .scoreDistribute .score__title {
+    font-family: "苹果粗体";
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 53px; }
+  .scoreDistribute .score__people {
+    font-family: "苹果中等";
+    margin-top: 10px;
+    color: #777; }
+
+.scoreDistribute .distribute {
+  margin-left: 30px;
+  flex: 1; }
+  .scoreDistribute .distribute__item {
+    height: 14px;
+    display: flex;
+    align-items: center; }
+  .scoreDistribute .distribute__item:nth-child(n+2) {
+    margin-top: 4px; }
+  .scoreDistribute .distribute__pro {
+    width: 100%;
+    margin-left: 14px;
+    background-color: #333;
+    height: 6px;
+    flex: 1; }
+  .scoreDistribute .distribute__top {
+    background-color: #ededed;
+    height: 100%; }

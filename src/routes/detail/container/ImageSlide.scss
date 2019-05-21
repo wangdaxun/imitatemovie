@@ -1,0 +1,46 @@
+.imageSlide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+  background: #000;
+  z-index: 999;
+
+
+  &__index{
+    color:#fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .slick-slider{
+    height: 100%;
+    width: 100%;
+  }
+
+  .slick-list{
+    height: 100%;
+    width: 100%;
+  }
+
+  .slick-track{
+    height: 100%;
+    width: 100%;
+  }
+
+  &__item{
+
+    position: relative;
+    height: 100%;
+    img{
+      position: absolute;
+      width:  65%;
+      height: auto;
+      top:  50%;
+      left: 50%;
+      transform: translate3d(-50%,42%,0);
+    }
+  }
+}

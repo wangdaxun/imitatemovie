@@ -1,0 +1,8 @@
+.user__content {
+  padding: 0 20px; }
+
+.user .bot {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%; }

@@ -1,0 +1,58 @@
+@import "../../../_util";
+.mArtist{
+
+  &__list{
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+    padding:0;
+    margin-right: -20px;
+  }
+
+  li {
+    padding-right: 6px;
+  }
+
+  li:last-child{
+    padding-right: 0px;
+  }
+
+
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+}
+.artistInfo{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 97px;
+
+  &__img{
+    img{
+      height: 100px;
+      width:97px;
+      background-size: cover;
+    }
+  }
+
+
+  &__name{
+    margin:10px 0 5px 0;
+    color: #333;
+    font-size:18px;
+    font-family: "苹果粗体";
+    font-weight: 700;
+  }
+
+  &__job{
+    margin:0;
+    color:$gray;
+    font-size:16px;
+    font-family: "苹果中等";
+  }
+
+}

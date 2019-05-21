@@ -1,0 +1,67 @@
+@import "../../../util";
+.Score{
+
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  &__item{
+
+    &--value{
+      font-family: "苹方粗体";
+      font-weight: 700;
+      font-size: 20px;
+
+      .Sc{
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+
+    &--title{
+      margin-top: 7px;
+      font-family: "苹方中等";
+      color:$gray;
+      font-size: 15px;
+    }
+  }
+
+  &__bt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  &__btn{
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+
+    &--icon{
+      display:inline-block;
+      margin-right: 4px;
+      width: 16px;
+      height: 16px;
+    }
+
+    &--want{
+      background: url("../../../../src/icon/heart.svg") 50% / contain no-repeat;
+    }
+
+    &--star{
+      background: url("../../../../src/icon/star.svg") 50% / contain no-repeat;
+    }
+
+    &--text{
+      font-family: "苹方中等";
+      color:#707070;
+    }
+  }
+
+}

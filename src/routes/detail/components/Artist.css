@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.mArtist__list {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 0;
+  margin-right: -20px; }
+
+.mArtist li {
+  padding-right: 6px; }
+
+.mArtist li:last-child {
+  padding-right: 0px; }
+
+.mArtist ::-webkit-scrollbar {
+  display: none; }
+
+.artistInfo {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 97px; }
+  .artistInfo__img img {
+    height: 100px;
+    width: 97px;
+    background-size: cover; }
+  .artistInfo__name {
+    margin: 10px 0 5px 0;
+    color: #333;
+    font-size: 18px;
+    font-family: "苹果粗体";
+    font-weight: 700; }
+  .artistInfo__job {
+    margin: 0;
+    color: #777;
+    font-size: 16px;
+    font-family: "苹果中等"; }

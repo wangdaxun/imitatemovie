@@ -1,0 +1,32 @@
+.imageSlide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: 999; }
+  .imageSlide__index {
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; }
+  .imageSlide .slick-slider {
+    height: 100%;
+    width: 100%; }
+  .imageSlide .slick-list {
+    height: 100%;
+    width: 100%; }
+  .imageSlide .slick-track {
+    height: 100%;
+    width: 100%; }
+  .imageSlide__item {
+    position: relative;
+    height: 100%; }
+    .imageSlide__item img {
+      position: absolute;
+      width: 65%;
+      height: auto;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, 42%, 0); }

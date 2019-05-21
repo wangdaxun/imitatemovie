@@ -1,0 +1,66 @@
+.tabMenu{
+  display:flex;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  a{
+    text-decoration: none;
+  }
+  &__btn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+
+
+    span{
+      margin-top: 10px;
+      text-align: center;
+      margin-left: 8px;
+      color: #666;
+      letter-spacing: 4px;
+      font-size: 15px;
+      font-family: "苹方粗体";
+    }
+  }
+  &__icon{
+
+    &--movie{
+      background: url("../icon/movie.svg") no-repeat;
+      background-size: 100% 100%;
+      width:40px;
+      height:40px;
+    }
+
+    &--user{
+      background: url("../icon/wangwang.svg") no-repeat;
+      background-size: 100% 100%;
+      width:40px;
+      height:45px;
+    }
+  }
+
+  &__btn--active{
+    .tabMenu__text{
+      color: #ff4c64;
+    }
+
+    .tabMenu__icon--movie{
+      background:url("../icon/movie-solid.svg");
+      background-size: 100% 100%;
+      width:40px;
+      height:40px;
+    }
+
+    .tabMenu__icon--user{
+      background:url("../icon/wangwang-solid.svg");
+      background-size: 100% 100%;
+      width:40px;
+      height:40px;
+    }
+  }
+
+
+}

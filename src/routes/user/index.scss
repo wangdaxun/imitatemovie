@@ -1,0 +1,14 @@
+@import "../../_util";
+.user{
+
+  &__content{
+    padding:0 20px;
+  }
+
+  .bot{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+  }
+}

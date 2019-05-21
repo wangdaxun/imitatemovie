@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.seatSelected {
+  width: 100%;
+  position: ff;
+  left: 0;
+  bottom: 0; }
+  .seatSelected__list {
+    background: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    overflow-y: scroll; }
+  .seatSelected .movieTicket {
+    margin-left: 20px;
+    border: 1px solid #E4E2E2;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .seatSelected .movieTicket:nth-child(n+2) {
+      margin-left: 20px; }
+    .seatSelected .movieTicket__detail {
+      flex: 1;
+      text-align: center;
+      font-family: "苹果中等"; }
+      .seatSelected .movieTicket__detail--pos {
+        color: #000; }
+      .seatSelected .movieTicket__detail--price {
+        color: #82c57b; }
+    .seatSelected .movieTicket .movieTicket__close {
+      height: 100%;
+      width: 30px;
+      background: transparent url("../../../icon/x.svg") no-repeat;
+      margin-top: 22px;
+      background-size: 20px 20px; }
+  .seatSelected__buy {
+    background-color: #ef819e;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    color: #fff;
+    font-family: "苹果中等";
+    text-align: center; }

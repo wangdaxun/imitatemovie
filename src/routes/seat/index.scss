@@ -1,0 +1,90 @@
+@import "../../_util";
+.seat{
+
+  &__title{
+    padding: 0 20px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "苹果中等";
+    font-weight: 600;
+  }
+
+  .seatMovieInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+    padding:0 60px;
+
+    &__bg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i{
+        display: block;
+        height: 25px;
+        width: 25px;
+      }
+
+      span{
+        margin-left: 5px;
+      }
+
+      &--choose{
+        background: transparent url("/source/seat.svg")  no-repeat 50% 50%;
+        background-size: cover;
+      }
+
+      &--already{
+        background: transparent url("/source/seat-sold.svg") no-repeat 50% 50%;
+        background-size: cover;
+      }
+
+      &--selected{
+        background: transparent url("/source/seat-hover.svg")  no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+  }
+
+  &__main{
+    position: relative;
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 490px;
+
+    .seat__tip{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .Trapezoid{
+        width: 140px;
+        border-top: 25px solid $gray;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-radius: 5px;
+        z-index: 10;
+      }
+      &--text{
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top:0;
+        height: 25px;
+        line-height: 25px;
+        width: 100%;
+        z-index: 20;
+        font-family: "苹果中等";
+      }
+    }
+
+    .seat__content{
+      width: 100%;
+      overflow-x: scroll;
+      height: 400px;
+    }
+  }
+
+}

@@ -1,0 +1,59 @@
+.top{
+  height: 173px;
+  position: relative;
+  width: 100%;
+  .main{
+    display: flex;
+  }
+
+  .word{
+    flex: 1;
+  }
+
+  &__name{
+    font-family: "苹果粗体";
+    font-weight: 700;
+    color:#fff;
+    margin-top: 28px;
+  }
+
+  &__subname{
+    color:#c4d3d3;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-family: "苹果中等";
+    font-size: 14px;
+  }
+
+  &__message{
+    color:#c4d3d3;
+    margin-top: 15px;
+    font-family: "苹果中等";
+    font-size: 14px;
+
+    .rsj{
+      position: absolute;
+      width: 0;
+      height: 0;
+      display: inline-block;
+      //border: 40px solid;
+      border-color: transparent  transparent  transparent #fff;
+      margin-left: 9px;
+      margin-top: -2px;
+      border-style: solid;
+      //border-color: transparent transparent #fff transparent;
+      border-width: 10px;
+      //transform: rotate(90deg);
+    }
+  }
+
+  .img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    img{
+      width: 106px;
+      height: 173px;
+    }
+  }
+}

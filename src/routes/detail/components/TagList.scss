@@ -1,0 +1,22 @@
+@import "../../../_util";
+.Tag{
+  margin-top: 30px;
+  &__item{
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "苹果中等";
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #bebebe;
+    color: #333;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  &__item.active{
+    border-color: $active;
+  }
+}

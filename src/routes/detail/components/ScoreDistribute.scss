@@ -1,0 +1,63 @@
+@import "../../../util";
+.scoreDistribute{
+
+  .title{
+    font-family: "苹果粗体";
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .content{
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .score{
+    text-align: center;
+
+    &__title{
+      font-family: "苹果粗体";
+      color:#000;
+      font-weight: 900;
+      letter-spacing: 3px;
+      font-size: 53px;
+    }
+    &__people{
+      font-family: "苹果中等";
+      margin-top: 10px;
+      color:$gray;
+
+    }
+  }
+
+  .distribute{
+    margin-left: 30px;
+    flex: 1;
+
+    &__item{
+      height: 14px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__item:nth-child(n+2){
+      margin-top: 4px;
+    }
+
+    &__pro{
+      width:100%;
+      margin-left: 14px;
+      background-color: #333;
+      height: 6px;
+      flex: 1;
+    }
+
+    &__top{
+      background-color: #ededed;
+      height: 100%;
+    }
+  }
+
+}

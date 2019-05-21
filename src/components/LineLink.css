@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.lineLink {
+  position: relative;
+  text-decoration: none;
+  height: 60px;
+  display: flex; }
+  .lineLink:nth-child(n+2) {
+    border-top: 1px solid #E4E2E2; }
+  .lineLink__title {
+    line-height: 60px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    flex: 1;
+    color: #000; }
+  .lineLink__extra {
+    line-height: 60px;
+    right: 0;
+    position: relative;
+    font-family: "方正兰亭黑";
+    color: #666;
+    width: 50px; }
+  .lineLink__arrow {
+    position: absolute;
+    display: inline-block;
+    background: url("../icon/arrowr.svg") no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    top: 19px;
+    right: 7px; }

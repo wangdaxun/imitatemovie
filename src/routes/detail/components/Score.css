@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.Score__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; }
+
+.Score__item--value {
+  font-family: "苹方粗体";
+  font-weight: 700;
+  font-size: 20px; }
+  .Score__item--value .Sc {
+    display: inline-block;
+    margin-right: 5px; }
+
+.Score__item--title {
+  margin-top: 7px;
+  font-family: "苹方中等";
+  color: #777;
+  font-size: 15px; }
+
+.Score__bt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px; }
+
+.Score__btn {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  border-radius: 4px; }
+  .Score__btn--icon {
+    display: inline-block;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px; }
+  .Score__btn--want {
+    background: url("../../../../src/icon/heart.svg") 50%/contain no-repeat; }
+  .Score__btn--star {
+    background: url("../../../../src/icon/star.svg") 50%/contain no-repeat; }
+  .Score__btn--text {
+    font-family: "苹方中等";
+    color: #707070; }
